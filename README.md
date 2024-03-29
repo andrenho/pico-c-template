@@ -1,5 +1,5 @@
 # Pico C template
-A template for new Raspberry Pi Pico projects using the (Pico C SDK)[https://www.raspberrypi.com/documentation/pico-sdk/]
+A template for new Raspberry Pi Pico projects using the [Pico C SDK](https://www.raspberrypi.com/documentation/pico-sdk/).
 
 ![image](https://github.com/andrenho/pico-c-template/assets/84652/1c3bae06-df87-4822-a9f1-7df25fbfd2d7)
 
