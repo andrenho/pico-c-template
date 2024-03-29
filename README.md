@@ -14,3 +14,10 @@ A template for new Raspberry Pi Pico projects using the (Pico C SDK)[https://www
 - `make upload-swd`: upload firmware using SWD pins on a Raspberry Pi (doesn't require rebooting the Pico)
 - `make upload-remote`: building locally and send the file to a remote Raspberry Pi. It the remote Raspberry Pi is running `tools/upload_server.py`, it'll receive the firmware file and upload it to the Pico using SWD. Requires setting the environment variable `$REMOTE_IP` on the client.
 - `make talk`: open a serial terminal to talk to the Pi. Requires `screen` installed.
+
+# Starting out
+- Change the project name in these two files:
+  - `firmware/CMakeLists.txt`
+  - `.github/workflows/build-firmware.yml`
+- Write your project as usual
+- When ready to release, create a version tag (ex.: `v1.0.0`). This will fire a Github Action that will build the firmware into a release package, and create a release in the main page.
