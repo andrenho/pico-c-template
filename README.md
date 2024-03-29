@@ -1,9 +1,9 @@
 # Pico C template
-A template for new Raspberry Pi Pico projects using the C SDK.
+A template for new Raspberry Pi Pico projects using the (Pico C SDK)[https://www.raspberrypi.com/documentation/pico-sdk/]
 
 # Features
 - A skeleton CMake project containing some usefult targets
-- A skeleton Kicad template for the circuit
+- A skeleton (Kicad)[https://www.kicad.org/] template for the circuit
 - Build the firmware locally and install it remotely (for example, use a PC to edit and compile the firmware, and a Raspberry Pi to upload it via SWD)
 
 # Included targets
