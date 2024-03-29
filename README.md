@@ -1,3 +1,5 @@
+[![Build firmware](https://github.com/andrenho/pico-c-template/actions/workflows/build-firmware.yml/badge.svg)](https://github.com/andrenho/pico-c-template/actions/workflows/build-firmware.yml)
+
 # Pico C template
 A template for new Raspberry Pi Pico projects using the (Pico C SDK)[https://www.raspberrypi.com/documentation/pico-sdk/]
 
