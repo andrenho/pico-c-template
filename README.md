@@ -5,7 +5,7 @@ A template for new Raspberry Pi Pico projects using the [Pico C SDK](https://www
 
 # Features
 - A skeleton CMake project containing some usefult targets
-- A skeleton (Kicad)[https://www.kicad.org/] template for the circuit
+- A skeleton [Kicad](https://www.kicad.org/) template for the circuit
 - Build the firmware locally and install it remotely (for example, use a PC to edit and compile the firmware, and a Raspberry Pi to upload it via SWD)
 - Create a new git tag, and github will build and release the firmware in the main project page.
 
